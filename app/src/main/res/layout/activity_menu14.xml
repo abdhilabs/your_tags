@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".Menu.Menu14Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E6ffffff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/btn_back"
+            app:srcCompat="@drawable/img_back" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Lifestyle"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lifestyle" />
+
+                            <Button
+                                android:id="@+id/btnCopy1"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rich"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rich" />
+
+                            <Button
+                                android:id="@+id/btnCopy2"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Work"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/work" />
+
+                            <Button
+                                android:id="@+id/btnCopy3"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="School"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/school" />
+
+                            <Button
+                                android:id="@+id/btnCopy4"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Business"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/business" />
+
+                            <Button
+                                android:id="@+id/btnCopy5"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Skate"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/skate" />
+
+                            <Button
+                                android:id="@+id/btnCopy6"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Entrepreneur"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/entrepreneur" />
+
+                            <Button
+                                android:id="@+id/btnCopy7"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Vapor"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:id="@+id/copy8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/vapor" />
+
+                            <Button
+                                android:id="@+id/btnCopy8"
+                                android:layout_width="60dp"
+                                android:layout_height="35dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="6dp"
+                                android:layout_marginBottom="2dp"
+                                android:background="@drawable/btn_bulat"
+                                android:text="Copy8"
+                                android:textColor="@color/colorPrimaryDark" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

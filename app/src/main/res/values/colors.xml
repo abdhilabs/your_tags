@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#94E9FF</color>
+    <color name="colorPrimaryDark">#94E9FF</color>
+    <color name="colorAccent">#94E9FF</color>
+    <color name="end">#94E9FF</color>
+    <color name="start">#F2F28A</color>
+    <color name="font">#000000</color>
+    <color name="tranparent">#B3ffffff</color>
+    <color name="bg_Cardview">#CCffffff</color>
+    <color name="btnBack">#ffffffff</color>
+    <color name="fontLogo">#7ED1B5</color>
+</resources>

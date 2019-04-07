@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tags"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_tags" />
+    <item
+        android:id="@+id/navigation_custom"
+        android:icon="@drawable/ic_edit_white_24dp"
+        android:title="@string/title_custom" />
+    <item
+        android:id="@+id/navigation_apps"
+        android:icon="@drawable/ic_build_white_24dp"
+        android:title="@string/title_apps" />
+</menu>
