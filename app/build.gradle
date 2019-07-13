@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'yourtags'
-            keyPassword '123456'
-            storeFile file('D:/Project/Note Project Fix/YourTags.jks')
-            storePassword '123456'
-        }
-    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.mriksani.yourtags"
@@ -23,10 +15,6 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             debuggable false
-            signingConfig signingConfigs.config
-        }
-        debug {
-            signingConfig signingConfigs.config
         }
     }
     productFlavors {
